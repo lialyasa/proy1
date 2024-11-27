@@ -1,0 +1,102 @@
+* {
+    background-color: #002b5a;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2e1d82;
+}
+
+header {
+    background: #002b5a;
+    color: #4b97e7;
+    text-align: center;
+    padding: 20px;
+}
+header p {
+    font-size: 50px;
+    color: white;
+}
+h1 {
+    font-size: 60px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background: #002b5a;
+    border-radius: 1%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4b97e7;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+#trailer iframe {
+    display: block;
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#trailer h2 {
+    text-align: center;
+    font-size: 40px;
+}
+#trailer p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+#tem p {
+    text-indent: 30px;
+    font-size: 20px;
+    color: white;
+}
+#tem h3 {
+    font-size: 30px;
+}
+#redes img {
+    height: 30px;
+    margin: 10px;
+    display: inline-block;
+    margin-left: 300px;
+    margin-right: auto;
+}
+
+#sus form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sus input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 600px;
+    max-width: 800px;
+}
+
+#sus label {
+    color: #4b97e7;
+    font-size: 25px;
+}
+
+#sus button {
+    padding: 10px 20px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#sus button:hover {
+    background: #218838;
+    border-radius: 3%;
+}
